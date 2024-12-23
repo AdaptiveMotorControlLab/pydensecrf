@@ -1,5 +1,18 @@
-PyDenseCRF
+PyDenseCRF2
 ==========
+
+NOTE: this code is forked from `https://github.com/lucasb-eyer/pydensecrf`, which is not actively maintained. However, this is a highly useful dependency for our work, [CellSeg3D](https://github.com/AdaptiveMotorControlLab/CellSeg3), thus we am maintaing the package for `pypi` here!
+
+
+Quick start:
+
+```
+pip install pydensecrf2
+import pydensecrf
+```
+
+### Original Readme:
+----------
 
 This is a (Cython-based) Python wrapper for [Philipp Krähenbühl's Fully-Connected CRFs](http://web.archive.org/web/20161023180357/http://www.philkr.net/home/densecrf) (version 2, [new, incomplete page](http://www.philkr.net/2011/12/01/nips/)).
 
