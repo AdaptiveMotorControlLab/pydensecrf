@@ -19,13 +19,15 @@ except ImportError:
     ]
 
 setup(
-    name="pydensecrf",
+    name="pydensecrf2",
     version="1.0",
     description="A python interface to Philipp Krähenbühl's fully-connected (dense) CRF code.",
     long_description="See the README.md at http://github.com/lucasb-eyer/pydensecrf",
-    author="Lucas Beyer",
+    author="Lucas Beyer, Philipp Krähenbühl",
     author_email="lucasb.eyer.be@gmail.com",
-    url="http://github.com/lucasb-eyer/pydensecrf",
+    maintainer="Mackenzie Mathis",  
+    maintainer_email="mackenzie@post.harvard.edu", 
+    url="https://github.com/adaptivemotorcontrollab/pydensecrf",
     ext_modules=ext_modules,
     packages=["pydensecrf"],
     setup_requires=['cython==0.29.36'],
